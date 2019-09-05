@@ -1,9 +1,14 @@
 import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import Cryptolist from './components/Cryptolist'
 
 class App extends Component {
   render() {
-    return <HelloWorld />
+    return (
+      <>
+        <h1 className="center">Crypto-Currency!</h1>
+        <Cryptolist />
+      </>
+    )
   }
 }
 

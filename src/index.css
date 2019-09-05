@@ -10,3 +10,42 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
+.unit {
+  /* display: flex; */
+  list-style-type: none;
+  border: solid black;
+  margin-top: 0.5rem;
+  margin-left: 0.8rem;
+  flex-direction: column;
+  width: 32%;
+}
+
+.center {
+  text-align: center;
+  align-items: center;
+}
+
+.nomargin {
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.input-group {
+  width: 30%;
+  left: 35%;
+}
+
+.greenBG {
+  background-color: lightgreen;
+}
+
+.redBG {
+  background-color: red;
+}
